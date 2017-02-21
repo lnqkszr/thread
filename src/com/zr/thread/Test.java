@@ -1,10 +1,11 @@
 package com.zr.thread;
+
 /**   
 * @Title: Test.java 
-* @Package thread 
-* @Description: ²âÊÔ 
+* @Package com.zr.thread 
+* @Description: TODO 
 * @author zhurui
-* @date 2017Äê2ÔÂ21ÈÕ ÉÏÎç11:30:26 
+* @date 2017å¹´2æœˆ21æ—¥ ä¸Šåˆ11:42:04 
 * @version V1.0   
 */
 public class Test {
