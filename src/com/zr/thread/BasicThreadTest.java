@@ -42,8 +42,18 @@ public class BasicThreadTest {
 	
 	public static void testMyRunnable(){
 		MyRunnable runnable = new MyRunnable();
+		/**
+		 * Thread 类的构造函数可以支持传递Runnable接口
+		 */
 		Thread thread = new Thread(runnable);
 		thread.start();
+		/**
+		 * Thread 类也实现了Runnable接口,所以传递一个Thread对象
+		 * 将Thread对象中的run()方法放到另外一个线程中执行
+		 */
+		Thread thread2 = new Thread(new MyThread());
+		thread2.start();
+		
 		System.out.println("运行结束");
 	}
 	
