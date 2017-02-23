@@ -49,7 +49,7 @@ public class ThreadData {
 			A计算：count=1
 			C计算：count=1
 			D计算：count=1
-			ABCD打印的都是6，说明ABCD同时对count进行了处理，
+			ABCD打印的都是1，说明ABCD同时对count进行了处理，
 			产生非线程安全的问题
 		 */
 	}
